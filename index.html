@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renewable Energy</title>
+  <style>
+    body {
+      background-image: url("images/renewable-energy-banner.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 300px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    h1 { 
+      color: #00FF00; 
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #000000;
+      text-decoration: underline;
+    }
+
+    nav a { 
+      color: #FFFFFF; 
+      font-weight: bold;
+      font-size: 1.2em; 
+      text-decoration: underline; 
+    }
+    .hero{
+        display:flex;
+        align-items: center;
+    }
+    .hero p{
+        color:white;
+        font-size: 2.4em;
+        margin-left: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+    .featured-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .featured-content h2 {
+        text-align: center;
+        width: 100%;
+        color: #FFFF00;
+        font-size: 2em;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .content-item {
+        margin: 10px;
+        text-align: center;
+    }
+    .content-item h3 {
+        color: #0000FF;
+    }
+    .content-item p {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .content-item button { /* Style for the "Read More" buttons */
+        background-color: lightyellow; /* Light yellow background color */
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="images/logo.jpg" alt="Renewable Energy Logo" id="logo">
+      <h1>Renewable Energy: Powering a Sustainable Future</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="types.html">Types</a></li>
+          <li><a href="benefits.html">Benefits</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <p>Welcome to our website dedicated to renewable energy! Explore the fascinating world of sustainable power and
+        discover how it can help us combat climate change and create a brighter future. Learn about different types of
+        renewable energy, their benefits, and how you can get involved.</p>
+    </section>
+    <section class="featured-content">
+      <h2>Featured Content</h2>
+      <div class="content-item">
+        <img src="images/solar-energy.jpg" alt="Solar Energy">
+        <h3>Solar Energy</h3>
+        <p>Learn about how solar energy can power our homes and businesses.</p>
+        <button><a href="types.html#solar">Read More</a></button>
+      </div>
+      <div class="content-item">
+        <img src="images/wind-energy.jpg" alt="Wind Energy">
+        <h3>Wind Energy</h3>
+        <p>Learn about how wind energy can power our communities and industries.</p>
+        <button><a href="types.html#wind">Read More</a></button>
+      </div>
+      <div class="content-item">
+        <img src="images/hydro-energy.jpg" alt="Hydro Energy">
+        <h3>Hydro Energy</h3>
+        <p>Learn about how hydro energy can provide clean and reliable electricity.</p>
+        <button><a href="types.html#hydro">Read More</a></button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Renewable Energy Website</p>
+  </footer>
+</body>
+</html>
